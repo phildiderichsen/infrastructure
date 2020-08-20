@@ -116,6 +116,10 @@ settings.modeConfig = [
     {
         localekey: "modern_texts",
         mode: "default"
+    },
+    {
+        localekey: "memo_texts",
+        mode: "memo"
     }
 ];
 
