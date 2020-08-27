@@ -3,7 +3,3 @@
 
 /localhost.crt
 /localhost.key
-
-korp/corpora/annotated/Memo*
-korp/corpora/registry/memo*
-korp/corpora/data/memo*
