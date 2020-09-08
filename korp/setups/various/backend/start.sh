@@ -1,3 +1,7 @@
+# Run test corpus encoding
+chmod +x /opt/host_corpora/encodingscripts/encode_testcorpus.sh
+/opt/host_corpora/encodingscripts/encode_testcorpus.sh
+
 # Run LANCHART corpus encoding
 chmod +x /opt/host_corpora/encodingscripts/encode_LANCHARTcorpus.sh
 /opt/host_corpora/encodingscripts/encode_LANCHARTcorpus.sh
