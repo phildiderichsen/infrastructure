@@ -25,3 +25,10 @@ MEMO-testkorpusset kan hentes med svn hvis man er på VPN (lægges i backend/cor
 ```
 svn export svn://norsdivsvn01fw.unicph.domain/MEMOcorpus/trunk/Testkorpus/Memo-testkorpus-1-brill-korp-alle-filer-i-et-korpus.xml .
 ```
+
+Hvis man vil stoppe docker-backenden og -frontenden, gør man følgende:
+
+```
+docker container ls  # Find ud af containernes navne, fx various_backend_1 og various_frontend_1.
+docker container stop various_backend_1 && docker container stop various_frontend_1  # Stop dem.
+```
