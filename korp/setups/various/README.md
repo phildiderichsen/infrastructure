@@ -19,3 +19,9 @@ Dette vil kun virke hvis de relevante vrt-filer ligger i backend/corpora/annotat
 * DK.constitution.tabulator.vrt
 * Memo-testkorpus-1-brill-korp-alle-filer-i-et-korpus.xml
 * vrt_out.txt
+
+MEMO-testkorpusset kan hentes med svn hvis man er på VPN (lægges i backend/corpora/annotated):
+
+```
+svn export svn://norsdivsvn01fw.unicph.domain/MEMOcorpus/trunk/Testkorpus/Memo-testkorpus-1-brill-korp-alle-filer-i-et-korpus.xml .
+```
