@@ -120,6 +120,10 @@ settings.modeConfig = [
     {
         localekey: "lanchart_transcriptions",
         mode: "lanchart"
+    },
+    {
+        localekey: "memo_testcorpus",
+        mode: "memo"
     }
 ];
 

@@ -2,6 +2,10 @@
 chmod +x /opt/host_corpora/encodingscripts/encode_LANCHARTcorpus.sh
 /opt/host_corpora/encodingscripts/encode_LANCHARTcorpus.sh
 
+# Run MEMOtest corpus encoding
+chmod +x /opt/host_corpora/encodingscripts/encode_MEMOtestcorpus.sh
+/opt/host_corpora/encodingscripts/encode_MEMOtestcorpus.sh
+
 service mysql start && python3 /opt/korp-backend/korp.py
 
 # TODO: recommended server (for later)
