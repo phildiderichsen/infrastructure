@@ -18,202 +18,176 @@ settings.corporafolders.lanchart = {
  * Positional attributes for test corpus.
  */
 
-var testcorpAttrs = {};  
+var lanchartAttrs = {};  
 
-testcorpAttrs.nul1 = {
+lanchartAttrs.nul1 = {
     label: "nul1",
-    type: "set",
     opts: settings.defaultOptions,
-    extendedTemplate: "<input ng-model='model' >",
-    order: 1
+    order: 0
 };
 
-testcorpAttrs.nul2 = {
+lanchartAttrs.nul2 = {
     label: "nul2",
-    type: "set",
     opts: settings.defaultOptions,
-    extendedTemplate: "<input ng-model='model' >",
     order: 1
 };
 
-testcorpAttrs.nul3 = {
+lanchartAttrs.nul3 = {
     label: "nul3",
-    type: "set",
     opts: settings.defaultOptions,
-    extendedTemplate: "<input ng-model='model' >",
-    order: 1
+    order: 2
 };
 
-testcorpAttrs.nul4 = {
+lanchartAttrs.nul4 = {
     label: "nul4",
-    type: "set",
     opts: settings.defaultOptions,
-    extendedTemplate: "<input ng-model='model' >",
-    order: 1
+    order: 3
 };
 
-testcorpAttrs.nul5 = {
+lanchartAttrs.nul5 = {
     label: "nul5",
-    type: "set",
     opts: settings.defaultOptions,
-    extendedTemplate: "<input ng-model='model' >",
-    order: 1
+    order: 4
 };
 
-testcorpAttrs.nul6 = {
+lanchartAttrs.nul6 = {
     label: "nul6",
-    type: "set",
     opts: settings.defaultOptions,
-    extendedTemplate: "<input ng-model='model' >",
-    order: 1
+    order: 5
 };
 
-testcorpAttrs.nul7 = {
+lanchartAttrs.nul7 = {
     label: "nul7",
-    type: "set",
     opts: settings.defaultOptions,
-    extendedTemplate: "<input ng-model='model' >",
-    order: 1
+    order: 6
 };
 
-testcorpAttrs.nul8 = {
+lanchartAttrs.nul8 = {
     label: "nul8",
-    type: "set",
     opts: settings.defaultOptions,
-    extendedTemplate: "<input ng-model='model' >",
-    order: 1
+    order: 7
 };
 
-testcorpAttrs.nul9 = {
+lanchartAttrs.nul9 = {
     label: "nul9",
-    type: "set",
     opts: settings.defaultOptions,
-    extendedTemplate: "<input ng-model='model' >",
-    order: 1
+    order: 8
 };
 
-testcorpAttrs.nul10 = {
+lanchartAttrs.nul10 = {
     label: "nul10",
-    type: "set",
     opts: settings.defaultOptions,
-    extendedTemplate: "<input ng-model='model' >",
-    order: 1
+    order: 9
 };
 
-testcorpAttrs.nul11 = {
+lanchartAttrs.nul11 = {
     label: "nul11",
-    type: "set",
     opts: settings.defaultOptions,
-    extendedTemplate: "<input ng-model='model' >",
-    order: 1
+    order: 10
 };
 
-testcorpAttrs.nul12 = {
+lanchartAttrs.nul12 = {
     label: "nul12",
-    type: "set",
     opts: settings.defaultOptions,
-    extendedTemplate: "<input ng-model='model' >",
-    order: 1
+    order: 11
 };
 
-testcorpAttrs.nul13 = {
+lanchartAttrs.nul13 = {
     label: "nul13",
-    type: "set",
     opts: settings.defaultOptions,
-    extendedTemplate: "<input ng-model='model' >",
-    order: 1
+    order: 12
 };
 
-testcorpAttrs.nul14 = {
+lanchartAttrs.nul14 = {
     label: "nul14",
-    type: "set",
     opts: settings.defaultOptions,
-    extendedTemplate: "<input ng-model='model' >",
-    order: 1
+    order: 13
 };
 
-testcorpAttrs.phoneme = {
+lanchartAttrs.phoneme = {
     label: "phoneme",
-    type: "set",
     opts: settings.defaultOptions,
-    extendedTemplate: "<input ng-model='model' >",
-    order: 1
+    order: 14
 };
 
-testcorpAttrs.ipa = {
+lanchartAttrs.ipa = {
     label: "ipa",
-    type: "set",
     opts: settings.defaultOptions,
-    extendedTemplate: "<input ng-model='model' >",
-    order: 1
+    order: 15
 };
 
-testcorpAttrs.Mmmm = {
+lanchartAttrs.Mmmm = {
     label: "Mmmm",
-    type: "set",
     opts: settings.defaultOptions,
-    extendedTemplate: "<input ng-model='model' >",
-    order: 1
+    order: 16
 };
 
-testcorpAttrs.Ssss = {
-    label: "ipa",
-    type: "set",
+lanchartAttrs.Ssss = {
+    label: "Ssss",
     opts: settings.defaultOptions,
-    extendedTemplate: "<input ng-model='model' >",
-    order: 1
+    order: 17
 };
 
-testcorpAttrs.Aaaa = {
+lanchartAttrs.Aaaa = {
     label: "Aaaa",
-    type: "set",
     opts: settings.defaultOptions,
-    extendedTemplate: "<input ng-model='model' >",
-    order: 1
+    order: 18
 };
 
-testcorpAttrs.xmin = {
+lanchartAttrs.xmin = {
     label: "xmin",
-    type: "set",
     opts: settings.defaultOptions,
-    extendedTemplate: "<input ng-model='model' >",
-    order: 1
+    order: 19
 };
 
-testcorpAttrs.xmax = {
+lanchartAttrs.xmax = {
     label: "xmax",
-    type: "set",
     opts: settings.defaultOptions,
-    extendedTemplate: "<input ng-model='model' >",
-    order: 1
+    order: 20
+};
+
+lanchartAttrs.pos = {
+    label: "pos",
+    opts: settings.defaultOptions,
+    order: 21
+};
+
+lanchartAttrs.pos2 = {
+    label: "pos2",
+    opts: settings.defaultOptions,
+    order: 22
 };
 
 
+var lanchartAttrs = {
+    nul1 : lanchartAttrs.nul1,
+    nul2 : lanchartAttrs.nul2,
+    nul3 : lanchartAttrs.nul3,
+    nul4 : lanchartAttrs.nul4,
+    nul5 : lanchartAttrs.nul5,
+    nul6 : lanchartAttrs.nul6,
+    nul7 : lanchartAttrs.nul7,
+    nul8 : lanchartAttrs.nul8,
+    nul9 : lanchartAttrs.nul9,
+    nul10 : lanchartAttrs.nul10,
+    nul11 : lanchartAttrs.nul11,
+    nul12 : lanchartAttrs.nul12,
+    nul13 : lanchartAttrs.nul13,
+    nul14 : lanchartAttrs.nul14,
+    phoneme : lanchartAttrs.phoneme,
+    ipa : lanchartAttrs.ipa,
+    Mmmm : lanchartAttrs.Mmmm,
+    Ssss : lanchartAttrs.Ssss,
+    Aaaa : lanchartAttrs.Aaaa,
+    xmin : lanchartAttrs.xmin,
+    xmax : lanchartAttrs.xmax,
+    pos : lanchartAttrs.pos,
+    pos2 : lanchartAttrs.pos2
+};
 
-var testcorpAttrs = {
-    nul1 : testcorpAttrs.nul1,
-    nul2 : testcorpAttrs.nul2,
-    nul3 : testcorpAttrs.nul3,
-    nul4 : testcorpAttrs.nul4,
-    nul5 : testcorpAttrs.nul5,
-    nul6 : testcorpAttrs.nul6,
-    nul7 : testcorpAttrs.nul7,
-    nul8 : testcorpAttrs.nul8,
-    nul9 : testcorpAttrs.nul9,
-    nul10 : testcorpAttrs.nul10,
-    nul11 : testcorpAttrs.nul11,
-    nul12 : testcorpAttrs.nul12,
-    nul13 : testcorpAttrs.nul13,
-    nul14 : testcorpAttrs.nul14,
-    phoneme : testcorpAttrs.phoneme,
-    pos : testcorpAttrs.pos,
-    pos2 : testcorpAttrs.pos2,
-    ipa : testcorpAttrs.ipa,
-    Mmmm : testcorpAttrs.Mmmm,
-    Ssss : testcorpAttrs.Ssss,
-    Aaaa : testcorpAttrs.Aaaa,
-    xmin : testcorpAttrs.xmin,
-    xmax : testcorpAttrs.xmax
+var lanchartAttrs_working = {
+    pos : lanchartAttrs.pos,
+    pos2 : lanchartAttrs.pos2
 };
 
 $("#lemgram_list_item").remove();
@@ -229,7 +203,7 @@ settings.corpora.lanchart = {
     description : "LANCHART-korpusset in spe ...",
     within : {"turn": "turn"}, //defaultWithin,
     context : {"1 turn": "1 turn"}, //defaultContext,
-    attributes : testcorpAttrs, //modernAttrs,
+    attributes : lanchartAttrs, //modernAttrs,
     structAttributes : {
         turn_speaker : {label : "speaker"},
         text_xmin : {label : "textxmin"},
